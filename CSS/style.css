@@ -1,0 +1,48 @@
+/*Every change or style applied in this part will be global
+for those using this css*/
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/*Everything inside the "body" ticket*/
+body{
+    background-color: #403c3c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#last_updated{
+    background-color: #2e2b2b;
+    color: rgb(41, 223, 71); 
+    font-weight: bold; 
+    font-size: smaller;
+    height: 35px; 
+    line-height: 35px;
+    width:100%; /*All the space that contains the text*/
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 1001;
+    text-align: center;
+    padding-right: 15px;   
+}
+
+#presentation{
+    background-color: #2e2b2b;
+    color:rgb(41, 223, 71); 
+    font-weight: bold;
+    font-size: smaller; 
+    height: 70px; 
+    width: 100%;
+    position : fixed; 
+    top: 35px; 
+    left: 0;
+    text-align: center;
+}
+
+
+.search_menu{
+
+}
