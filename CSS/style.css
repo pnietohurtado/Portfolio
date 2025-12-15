@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #0F172A;
+    color: #F8FAFC;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -46,12 +46,12 @@ body {
 }
 
 .title-part-1 {
-    color: #4A6CF7;
+    color: #F8FAFC;
     display: block;
 }
 
 .title-part-2 {
-    color: #333;
+    color: #F8FAFC;
     display: block;
 }
 
@@ -64,7 +64,7 @@ body {
 .subtitle {
     font-size: 18px;
     font-weight: 500;
-    color: #666;
+    color: #F8FAFC;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -72,7 +72,7 @@ body {
 .title-divider {
     width: 60px;
     height: 2px;
-    background-color: #4A6CF7;
+    background-color: #F8FAFC;
 }
 
 
@@ -95,17 +95,17 @@ body {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #222;
+    color: #F8FAFC; /*Hello I am*/
 }
 
 .highlight {
-    color: #4A6CF7;
+    color: #4A6CF7; /*Pablo Nieto Hurtado*/
 }
 
 .content-divider {
     width: 50px;
     height: 3px;
-    background-color: #4A6CF7;
+    background-color: #4A6CF7; /*Line between the title and the text*/
     border-radius: 2px;
 }
 
@@ -116,7 +116,7 @@ body {
 .text-content p {
     margin-bottom: 20px;
     font-size: 16px;
-    color: #555;
+    color: #F8FAFC; /*Content*/
     line-height: 1.7;
 }
 
@@ -180,7 +180,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 700;
-    color: #3f3e3e;
+    color: #F8FAFC;
 }
 
 .total-pages {
@@ -201,12 +201,12 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ddd;
+    background-color: #0F172A;
     transition: all 0.3s ease;
 }
 
 .dot.active {
-    background-color: #4A6CF7;
+    background-color: #0F172A;
     transform: scale(1.2);
 }
 
@@ -218,7 +218,7 @@ body {
 /* Sidebar Styles */
 .sidebar {
     width: 100px;
-    background-color: #3f3e3e;
+    background-color: #0b1325;
     box-shadow: -5px 0 20px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
@@ -242,14 +242,14 @@ body {
     background: none;
     border: none;
     font-size: 24px;
-    color: #009b22;
+    color: #2563EB;
     cursor: pointer;
     margin-bottom: 60px;
     transition: color 0.3s ease;
 }
 
 .menu-toggle:hover {
-    color: #009b22;
+    color: #22D3EE;
 }
 
 
@@ -270,7 +270,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #999;
+    color: #2563EB;
     transition: all 0.3s ease;
     position: relative;
 }
@@ -288,7 +288,7 @@ body {
 }
 
 .nav-link.active {
-    color: #009b22;
+    color: #22D3EE;
 }
 
 .nav-link.active::before {
@@ -299,12 +299,12 @@ body {
     transform: translateY(-50%);
     width: 3px;
     height: 40px;
-    background-color: #009b22;
+    background-color: #22D3EE;
     border-radius: 0 3px 3px 0;
 }
 
 .nav-link:hover:not(.active) {
-    color: #666;
+    color: #22D3EE;
     transform: translateY(-2px);
 }
 
@@ -332,14 +332,14 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #585757;
+    background-color: #2563EB;
     color: #3f3e3e;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .social-link:hover {
-    background-color: #009b22;
+    background-color: #22D3EE;
     color: white;
     transform: translateY(-3px);
 }
@@ -351,7 +351,7 @@ body {
 /* Copyright */
 .copyright {
     font-size: 12px;
-    color: #999;
+    color: #22D3EE;
     text-align: center;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
