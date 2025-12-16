@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+    
     display: flex;
     min-height: 100vh;
 }
@@ -464,4 +465,13 @@ body {
     .nav-text {
         font-size: 10px;
     }
+}
+
+
+
+
+
+
+.divider{
+    margin-top: 50px;
 }
