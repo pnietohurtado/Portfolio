@@ -27,17 +27,17 @@
 [change-theme="light"]{
 
     /*Sidebar variables*/
-    --color-sidebar-background: #0b1325; 
-    --color-sidebar-icon: #2563EB; 
-    --color-sidebar-icon-hover: #22D3EE; 
-    --color-sidebar-copywrite: #22D3EE; 
-    --color-sidebar-inside-icon: #3f3e3e; 
-    --color-sidebar-inside-icon-hover: white; 
+    --color-sidebar-background: #9a9a9b; 
+    --color-sidebar-icon: #323333; 
+    --color-sidebar-icon-hover: #323333; 
+    --color-sidebar-copywrite: #0c0c0c; 
+    --color-sidebar-inside-icon: #e7e5e5; 
+    --color-sidebar-inside-icon-hover: rgb(235, 234, 234); 
 
     /*Content variables*/
-    --color-backgroundcolor: #0F172A; 
-    --color-tittle: #F8FAFC; 
-    --color-highlight-text: #F8FAFC; 
+    --color-backgroundcolor: #bdbdbd; 
+    --color-tittle: #323333; 
+    --color-highlight-text: #323333; 
 
 }
 

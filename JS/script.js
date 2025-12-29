@@ -1,14 +1,16 @@
 
 const themeBtn = document.getElementById("changeTheme"); 
-const themeNow = "light"; 
+let themeNow = "light"; 
 
 themeBtn.addEventListener('click', function(){
     if(themeNow === "light"){
-        document.body.setAttribute("data-theme", "dark");
+        document.body.setAttribute("change-theme", "dark");
         themeNow = "dark"; 
+        console.log("Changing to dark mode"); 
     }else if(themeNow === "dark"){
-        document.body.setAttribute("data-theme", "light");
+        document.body.setAttribute("change-theme", "light");
         themeNow = "light"; 
+        console.log("Changing to light mode"); 
     }
 }); 
 
