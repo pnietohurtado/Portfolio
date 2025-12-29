@@ -1,4 +1,17 @@
-// DOM Ready Function
+
+const themeBtn = document.getElementById("changeTheme"); 
+const themeNow = "light"; 
+
+themeBtn.addEventListener('click', function(){
+    if(themeNow === "light"){
+        document.body.setAttribute("data-theme", "dark");
+        themeNow = "dark"; 
+    }else if(themeNow === "dark"){
+        document.body.setAttribute("data-theme", "light");
+        themeNow = "light"; 
+    }
+}); 
+
 document.addEventListener('DOMContentLoaded', function() {
     
     // Menu Toggle Functionality
@@ -127,3 +140,4 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('%cDesigned with precision to match the provided image.', 
         'color: #666; font-size: 12px;');
 });
+
